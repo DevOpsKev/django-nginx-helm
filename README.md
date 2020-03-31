@@ -1,6 +1,6 @@
 # Quickstart
 
-This project contains helm charts to run a near-production grade Django instance. It includes a postgres backend database and Nginx server to mimic a production environment.
+This project contains helm charts to run a Django instance. It includes a postgres backend database and Nginx server to mimic a production environment.
 
 ## Prerequisites
 To run this project locally, you'll need:

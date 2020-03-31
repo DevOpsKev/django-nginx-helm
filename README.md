@@ -32,11 +32,11 @@ Once you have this repo downloaded locally, there are a couple steps to configur
 Then add the following to a file called `values-development.yaml` inside that folder, replacing the folder name for where your code lives:
 
 `
-global:
-  environment: development
-  baseFolder: /<path_to_project>/webapp
-django:
-  webDebug: "True"
+global:  
+  environment: development  
+  baseFolder: /<path_to_project>/webapp  
+django:  
+  webDebug: "True"  
 `
 
 This file will hold any local configuration, is specific to each developer, and isn't part of version control. It allows us to put sensitive credentials and custom configuration for each developer.

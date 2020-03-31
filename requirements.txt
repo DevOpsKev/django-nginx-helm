@@ -1,0 +1,14 @@
+django
+psycopg2
+gunicorn
+boto3
+django-user-agents
+djangorestframework
+python-dateutil
+pytz
+simplejson
+six
+ua-parser
+urllib3
+user-agents
+awscli

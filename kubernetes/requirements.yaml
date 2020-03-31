@@ -1,0 +1,5 @@
+dependencies:
+- name: postgresql
+  version: 3.18.3
+  repository: file://./charts/postgresql
+  condition: postgresql.enabled

@@ -1,0 +1,29 @@
+global:
+  environment: development
+  namespace: webappdjango
+
+nginx:
+  listenPort: 80
+
+django:
+  projectName: webapp
+  image: webappdjango
+  imagePullPolicy: Never
+  webDebug: "True"
+  secret_key: "abcd1234"
+
+service:
+  port: 8002
+
+postgresql:
+  nameOverride: "postgres"
+  enabled: true
+  postgresqlHost: local # will default to correct hostname via template
+  postgresqlUsername: postgresql
+  postgresqlPassword: postgresql
+  postgresqlDatabase: postgresql
+  postgresqlPort: 5432
+  image:
+    tag: 10.9.0
+  persistence:
+    enabled: false

@@ -45,16 +45,21 @@ This file will hold any local configuration, is specific to each developer, and 
 Now you can boot up Django, using a "Makefile" which has easy to remember commands. You can check out the actual commands in the Makefile in the root of the repo.
 
 Run this command to start up minikube. Note: your local machine should have 16G+ of RAM, if not you may need to adjust values in the Makefile.
+
 `make minikube`
 
 Run this command to build and run Django on your minikube cluster:
+
 `make upgrade`
 
 Check on the status of your pods, using this command:
+
 `make pods`
 
 Once the pods are in "RUNNING" state, use this to open a web browser:
+
 `make web`
+
 Sometimes it takes a couple minutes to get everything up and running, so be patient and try again in a couple minutes if it's not working.
 
 Thats it! You have a robust version of Django running locally. You can add "/admin" to the end of the URL and log in using admin:admin to check out Django admin, which shows all your database models.

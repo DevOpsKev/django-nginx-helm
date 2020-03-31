@@ -5,15 +5,18 @@ This project contains helm charts to run a near-production grade Django instance
 # Prerequisites
 To run this project locally, you'll need:
 
-Kubectl (`brew install kubectl` on OSX, or here: https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-Helm (`brew install helm` on OSX, or here: https://helm.sh/docs/intro/install/)
-Virtualbox (https://www.virtualbox.org/wiki/Downloads)
-Minikube (`brew install minikube` on OSX, or here: https://kubernetes.io/docs/tasks/tools/install-minikube/)
+-Kubectl (`brew install kubectl` on OSX, or here: https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+-Helm (`brew install helm` on OSX, or here: https://helm.sh/docs/intro/install/)
+-Virtualbox (https://www.virtualbox.org/wiki/Downloads)
+-Minikube (`brew install minikube` on OSX, or here: https://kubernetes.io/docs/tasks/tools/install-minikube/)
 
 Kubernetes is a container orchestration system, you can read about it here: https://kubernetes.io/
+
 Kubectl is command line tool to interact with kubernetes clusters, you can read about it here: https://kubernetes.io/docs/reference/kubectl/overview/
+
 Helm is a package manager for kubernetes. You can read about it here: https://helm.sh/
 Virtualbox is a local virtualization tool that allows you to run machine images -- it will be the host for the minikube instance. You can read about it here: https://www.virtualbox.org/
+
 Minikube is a local development version of kubernetes. It runs a full cluster locally. You can read about it here: https://kubernetes.io/docs/setup/learning-environment/minikube/
 
 # Setting up your local environment

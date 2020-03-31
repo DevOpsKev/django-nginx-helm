@@ -1,2 +1,3 @@
 # ignore environment values files for kubernetes as they contain logins
 kubernetes/env-values/*
+*.pyc

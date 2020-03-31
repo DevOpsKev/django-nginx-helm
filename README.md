@@ -20,6 +20,7 @@ Kubernetes is a container orchestration system, you can read about it here: http
 Kubectl is command line tool to interact with kubernetes clusters, you can read about it here: https://kubernetes.io/docs/reference/kubectl/overview/
 
 Helm is a package manager for kubernetes. You can read about it here: https://helm.sh/
+
 Virtualbox is a local virtualization tool that allows you to run machine images -- it will be the host for the minikube instance. You can read about it here: https://www.virtualbox.org/
 
 Minikube is a local development version of kubernetes. It runs a full cluster locally. You can read about it here: https://kubernetes.io/docs/setup/learning-environment/minikube/
